@@ -12,7 +12,7 @@
                        flex-wrap: wrap;*/
             justify-content: space-around;
             padding: 20px;
-            background-color: #f4f4f9;
+            background-color: lightgreen;
         }
 		.container {
             display: flex;           /* Enables Flexbox */
@@ -23,9 +23,10 @@
 		
         .box {
             width: 300px;
-			height: 300px;
+			height: 320px;
             margin: 10px;
             padding: 15px;
+			/*line-height: 1;*/
             background-color: #fff;
             border: 1px solid #ddd;
             border-radius: 8px;
@@ -36,123 +37,277 @@
           		 		display: flex;           /* Enables Flexbox */
                        flex-wrap: wrap;
 			       }
-
+		.boxlunch {
+            width: 300px;
+			height: 380px;
+            margin: 10px;
+            padding: 15px;
+			line-height: 1.2;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+			 justify-content: center;
+          		 		display: flex;           /* Enables Flexbox */
+                       flex-wrap: wrap;
+			       }
+				   
         .box:hover {
             transform: translateY(-5px);
             box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
         }
-
+		.boxlunch:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
         .box h3 {
             margin: 0;
             font-size: 1.2em;
             color: #333;
         }
-
+.boxlunch h3 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #333;
+        }
         .box p {
+            margin: 10px 0 0;
+            color: #555;
+        }
+		.boxlunch p {
             margin: 10px 0 0;
             color: #555;
         }
     </style>
 </head>
 <body>
-    <h1 align = center>GREEN CROW HEALTHY SALADS<BR/> BREAKFAST</H1>
- <div class="container">
-    <div class="box">
-			<h2> MONDAY</H2>
+	<!--<img src="D:\Deepa\GG\Webpage\Crow_logo.png" alt="Company Logo" width="100" height="auto">GREEN CROW -->
+    <h1 align = center><img src="D:\Deepa\GG\Webpage\Crow_logo.png" alt="Company Logo" width="100" height="auto"></h1>
+	<h1 align = center> HEALTHY SALADS @ YOUR DOORSTEP<BR/> BREAKFAST</H1>
+		<div class="container">
+			<div class="box">
+				<h2> MONDAY</H2>
+							<div class="pdts text-right">
+						<h3 class="foodtitle">Almond Apple Smoothie</h3>
+						<p class="foodnotes">Almonds, Apple, Chia Seeds, Banana, Honey</p>
+					</div>
+					
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Sprouted Moong Salad</h3>
+						<p class="foodnotes">Sprouted moong, Cabbage, Tomato, Onion</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Main Bowl</h3>
+						<p class="foodnotes">Millet Idli, Soya chunks Gravy</p>
+					</div>
+			</div>
+	
+			<div class="box">
+				<h2> TUESDAY</H2>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Coconut Vilvam Saaru</h3>
+						<p class="foodnotes">Coconut Milk, Vilvam leaves,Agar Agar, Himalayan Salt, Black Pepper</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Sprouted Urad Salad</h3>
+						<p class="foodnotes">Sprouted Urad, Beetroot, Radish, Onion</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Main Bowl</h3>
+						<p class="foodnotes">Legumes Adai, Coriander Chutney</p>
+					</div>
+			</div>
+	
+			<div class="box">
+				<h2> WEDNESDAY</H2>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">ALMOND POMO SMOOTHIE</h3>
+						<p class="foodnotes">Almonds, Pomogranate, Chia seeds, Honey</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Sprouted Horsegram Salad</h3>
+						<p class="foodnotes">Sprouted Horse gram, Carrot, Color Bell Pepper, Onion</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Main Bowl</h3>
+						<p class="foodnotes">Millet Idli, Ginger Chutney</p>
+					</div>
+			</div>
+	
+			<div class="box">
+				<h2> THURSDAY</H2>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Solkadhi</h3>
+						<p class="foodnotes">Coconut milk, koum, cumin, Green chilli, Himalayan salt</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Sprouted Moong Salad</h3>
+						<p class="foodnotes">Sprouted Moong, Brussel sprouts, Apple, Onion</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Main Bowl</h3>
+						<p class="foodnotes">Red Poha, Dal Tadka</p>
+					</div>
+			</div>
+	
+			<div class="box">
+				<h2> FRIDAY	</H2>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Cotton Seed Saaru</h3>
+						<p class="foodnotes">Cotoon seed, Dry Ginger, Agar Agar, Green chilli, Himalayan salt</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Sprouted Horsegram Salad</h3>
+						<p class="foodnotes">Sprouted Horsegram, Purple Cabbage,Pomogranate, Onion</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Main Bowl</h3>
+						<p class="foodnotes">Tofu Avocado Toast</p>
+					</div>
+			</div>
+	
+			<div class="box">
+				<h2> SATURDAY</H2>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Biotin Special Smoothie</h3>
+						<p class="foodnotes">Sunflower seeds, Almonds, Pistachios, Pumpkin Seeds, cashew, Banana, Dates</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Mixed Sprouts Salad</h3>
+						<p class="foodnotes">Mixed Sprouts, Cabbage, Beetroot, Onion, Himalayan Salt</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Main Bowl</h3>
+						<p class="foodnotes">Millet Idli, Chilli Garlic Imli Chutney</p>
+					</div>
+			</div>
+		</div>
+	<h1 align = center>LUNCH</H1>
+		<div class="container">
+			<div class="boxlunch">
+				<h2> MONDAY</H2>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Pumpkin Soup</h3>
+						<p class="foodnotes">Yellow Pumpkin, Pepper, Himalayan Salt, Seasonings</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Cut Fruit/Vegetable</h3>
+						<p class="foodnotes">Pineapple/Cucumber</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Mexican 'Oliv'</h3>
+						<p class="foodnotes">Iceberg Lettuce, Tomato, Sweet corn, Avocado, Rajma, Creamy Lime Dressings</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Main Bowl</h3>
+						<p class="foodnotes">Paneer Paratha, Curd</p>
+					</div>
+			</div>
+	
+			<div class="boxlunch">
+				<h2> TUESDAY</H2>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Lentil Morings Soup</h3>
+						<p class="foodnotes">Lentils, Moringa leaves, Onion, Tomato, Seasonings</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Cut Fruit/Vegetable</h3>
+						<p class="foodnotes">Pineapple/Cucumber</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Mexican 'Oliv'</h3>
+						<p class="foodnotes">Iceberg Lettuce, Tomato, Sweet corn, Avocado, Rajma, Creamy Lime Dressings</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Main Bowl</h3>
+						<p class="foodnotes">Paneer Paratha, Curd</p>
+					</div>
+			</div>
+	
+			<div class="boxlunch">
+				<h2> WEDNESDAY</H2>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Thai Green Soup</h3>
+						<p class="foodnotes">Mushroom, Spinach, Green Peas, Coconut milk, Seasonings</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Cut Fruit/Vegetable</h3>
+						<p class="foodnotes">Guava/Cucumber</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Thai Salad</h3>
+						<p class="foodnotes">Mango, Cabbage, Purple Cabbage, Raw Papaya, Cowpeas, Tofu, Thai style dressing</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Main Bowl</h3>
+						<p class="foodnotes">Samai Dal Rice, Curd</p>
+					</div>
+			</div>
+	
+			<div class="boxlunch">
+				<h2> THURSDAY</H2>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Cauliflower Soup</h3>
+						<p class="foodnotes">Cauliflower, Cashewnut, Onion, tomato, Seeasonings</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Cut Fruit/Vegetable</h3>
+						<p class="foodnotes">Papaya/Cucumber</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Halloween Bowl</h3>
+						<p class="foodnotes">Pumpkin, Beetroot, Stir fried beans, Sweet corn, Black chickpeas, Golden Elixir Dressing</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Main Bowl</h3>
+						<p class="foodnotes">Brown Rice, Mincd Soy Meal</p>
+					</div>
+			</div>
+	
+			<div class="boxlunch">
+				<h2> FRIDAY	</H2>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Broccoli Almond soup</h3>
+						<p class="foodnotes">Broccoli, Almonds, Onion, Garlic, Seasonings</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Cut Fruit/Vegetable</h3>
+						<p class="foodnotes">Pineapple/Cucumber</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Bahn Mi Bowl</h3>
+						<p class="foodnotes">Iceberg Lettuce, Carrot & Radish pickled, Color Bell pepper, White chickpeas, Tahini dressing</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Main Bowl</h3>
+						<p class="foodnotes">Tofu Paratha, Curd</p>
+					</div>
+			</div>
+	
+			<div class="boxlunch">
+				<h2> SATURDAY</H2>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Morings Mash</h3>
+						<p class="foodnotes">Moringa leaves, Coconut milk, Onion, Garlic, Turmeric, Cumin</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Cut Fruit/Vegetable</h3>
+						<p class="foodnotes">Papaya/Cucumber</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Punjabi Platter</h3>
+						<p class="foodnotes">Green Peas, Cauliflower, Sweet Potatoes, Onion, Tomato, Paneer, Emerald essence</p>
+					</div>
+					<div class="pdts text-right">
+						<h3 class="foodtitle">Main Bowl</h3>
+						<p class="foodnotes">Brown Basmathi, Rajma Masala</p>
+					</div>
+			</div>
+		</div>
+		<H4 ALIGN = CENTER> ** Single Serve/Weekly/Monthly Subscription Available</h4>
+		<h1 ALIGN = CENTER> TO ORDER OR ENQUIRE - 9943332899 </H1>
 		
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Almond Apple Smoothie</h3>
-				<p class="foodnotes">Almonds, Apple, Chia Seeds, Banana, Honey</p>
-			</div>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Sprouted Moong Salad</h3>
-				<p class="foodnotes">Sprouted moong, Cabbage, Tomato, Onion</p>
-			</div>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Main Bowl</h3>
-				<p class="foodnotes">Millet Idli, Soya chunks Gravy</p>
-			</div>
-    </div>
-	
-    <div class="box">
-		<h2> TUESDAY</H2>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Coconut Vilvam Saaru</h3>
-				<p class="foodnotes">Coconut Milk, Vilvam leaves,Agar Agar, Himalayan Salt, Black Pepper</p>
-			</div>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Sprouted Urad Salad</h3>
-				<p class="foodnotes">Sprouted Urad, Beetroot, Radish, Onion</p>
-			</div>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Main Bowl</h3>
-				<p class="foodnotes">Legumes Adai, Coriander Chutney</p>
-			</div>
-    </div>
-	
-	<div class="box">
-		<h2> WEDNESDAY</H2>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">ALMOND POMO SMOOTHIE</h3>
-				<p class="foodnotes">Almonds, Pomogranate, Chia seeds, Honey</p>
-			</div>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Sprouted Horsegram Salad</h3>
-				<p class="foodnotes">Sprouted Horse gram, Carrot, Color Bell Pepper, Onion</p>
-			</div>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Main Bowl</h3>
-				<p class="foodnotes">Millet Idli, Ginger Chutney</p>
-			</div>
-    </div>
-	
-	<div class="box">
-		<h2> THURSDAY</H2>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Solkadhi</h3>
-				<p class="foodnotes">Coconut milk, koum, cumin, Green chilli, Himalayan salt</p>
-			</div>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Sprouted Moong Salad</h3>
-				<p class="foodnotes">Sprouted Moong, Brussel sprouts, Apple, Onion</p>
-			</div>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Main Bowl</h3>
-				<p class="foodnotes">Red Poha, Dal Tadka</p>
-			</div>
-    </div>
-	
-	<div class="box">
-		<h2> FRIDAY	</H2>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Cotton Seed Saaru</h3>
-				<p class="foodnotes">Cotoon seed, Dry Ginger, Agar Agar, Green chilli, Himalayan salt</p>
-			</div>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Sprouted Horsegram Salad</h3>
-				<p class="foodnotes">Sprouted Horsegram, Purple Cabbage,Pomogranate, Onion</p>
-			</div>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Main Bowl</h3>
-				<p class="foodnotes">Tofu Avocado Toast</p>
-			</div>
-    </div>
-	
-	<div class="box">
-		<h2> SATURDAY</H2>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Biotin Special Smoothie</h3>
-				<p class="foodnotes">Sunflower seeds, Almonds, Pistachios, Pumpkin Seeds, cashew, Banana, Dates</p>
-			</div>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Mixed Sprouts Salad</h3>
-				<p class="foodnotes">Mixed Sprouts, Cabbage, Beetroot, Onion, Himalayan Salt</p>
-			</div>
-			<div class="pdts text-right">
-				<h3 class="foodtitle">Main Bowl</h3>
-				<p class="foodnotes">Millet Idli, Chilli Garlic Imli Chutney</p>
-			</div>
-    </div>
-</div>
 </body>
 </html>
